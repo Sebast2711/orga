@@ -1,0 +1,45 @@
+﻿.no-deco {
+    list-style: none;
+    padding:0px;
+}
+.gauche-droite {
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+}
+.droite {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.gauche-haut {
+    height:100%;
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.gauche-bas {
+    height:100%;
+    margin-top: 1em;
+    text-align:end;
+}
+
+.gauche-bas a {
+    background-color: #83C9F4;
+    padding: 1em;
+    text-decoration:none;
+    color:black;
+}
+
+.max-50 {
+    max-height: 60vh;
+}

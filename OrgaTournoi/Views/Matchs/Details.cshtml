@@ -1,0 +1,53 @@
+﻿@model OrgaTournoi.Models.Match
+
+@{
+    ViewData["Title"] = "Details";
+    ViewData["lien"] = "/css/liste.css";
+}
+
+<div class="container-fluid gauche-droite">
+    <div class="gauche card">
+        <div class="text-center">     
+            <h2>
+                @Html.DisplayFor(model => model.Evenement.Nom)
+            </h2><br />
+            <span>
+                @Html.DisplayFor(model => model.Evenement.jeu.Nom)
+            </span>
+            <span>
+                @Html.DisplayFor(model => model.Evenement.Cashprize)$
+            </span><br />
+        </div>
+        <div class="gauche-haut bg-image" style="background-image:url(@Html.DisplayFor(model => model.Evenement.Image)) alt=@Html.DisplayFor(model => model.Evenement.Nom);">
+        </div>
+        <div class="gauche-bas text-center">
+            <span>
+                @Html.DisplayFor(model => model.Evenement.DateDebut) - @Html.DisplayFor(model => model.Evenement.DateFin)
+            </span><br />
+            <span>
+                @Html.DisplayFor(model => model.Evenement.Lieu) - @Html.DisplayFor(model => model.Evenement.Pays.Nom)
+            </span>
+        </div>
+    </div>
+
+    <div class="droite">
+        <div class="text-center">
+            <h2>
+                @Html.DisplayFor(model => model.Equipes.First())<h4> VS </h4> <h2>@Html.DisplayFor(model => model.Evenement.Nom)</h2>
+            </h2><br />
+            <span>
+                @Html.DisplayFor(model => model.DateDebut) - @Html.DisplayFor(model => model.DateFin)
+            </span><br />
+            <span>
+                Score Final :  @Html.DisplayFor(model => model.Score)
+            </span>
+        </div>
+        <div class="gauche-haut bg-image" style="background-image:url(@Html.DisplayFor(model => model.Evenement.Image)) alt=@Html.DisplayFor(model => model.Evenement.Nom);">
+        </div>
+        <div class="gauche-bas text-center">
+
+        </div>
+ 
+    </div>
+</div>
+

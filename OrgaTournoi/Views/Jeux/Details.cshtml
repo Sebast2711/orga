@@ -1,0 +1,47 @@
+﻿@model OrgaTournoi.Models.JeuTournoiJoueurViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    ViewData["lien"] = "/css/liste.css";
+
+}
+
+<div class="container-fluid gauche-droite">
+    <div class="gauche">
+        <div class="gauche-haut">
+            <h2>@Model.Jeu.Nom</h2>
+            <h5>@Model.Jeu.DateSortie.ToString("dd/MM/yyyy")</h5>
+            <img src="@Model.Jeu.Image" alt="ImageJeu" style="width: 300; height:300;" />
+            @if (Model.Jeu.Personnages.Count > 0) {
+                @Html.ActionLink("Liste des personnages","Liste", "Personnages", new {id=@Model.Jeu.Id})
+            }
+
+        </div>
+        <div class="gauche-bas">
+        </div>
+    </div>
+
+    <div class="droite text-center">
+        <div class="gauche-droite max-50">
+            <div class="gauche">
+                <img src="@Model.Evenements.First().Image" alt="iamgeevenement" style="width: 150; height:150;" />
+
+                @Html.ActionLink(@Model.Evenements.First().Nom,"Details", "Evenements", new {id=@Model.Evenements.First().Id})
+                
+
+            </div>
+            <div class="droite">
+                @foreach (var evenement in @Model.Evenements.Skip(1)){
+                    @Html.ActionLink(evenement.Nom,"Details", "Evenements", new {id=evenement.Id})
+                }
+            </div>
+        </div>
+        
+        @*Template pour les joueurs pour un Jeu*@
+    @*    <div class="row">
+            <div class="col-md-4 col-sm-6">
+                cwwdfdmwodmw
+            </div>
+        </div>*@
+    </div>
+</div>

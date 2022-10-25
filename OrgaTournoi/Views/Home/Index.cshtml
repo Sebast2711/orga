@@ -1,0 +1,38 @@
+﻿@model IEnumerable<OrgaTournoi.Models.Jeu>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+    ViewData["lien"] = "/css/liste.css";
+}
+<link rel="stylesheet" href=""/>
+
+<div class="container text-center">
+
+    <div class="row align-items-start">
+
+
+        
+        @foreach (var jeu in Model) {
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        @*Affichage du lien pour aller vers le details d'un jeu*@
+                        @Html.ActionLink(jeu.Nom,"Details","Jeux", new {id=jeu.Id})
+                    </div>
+                    <div class="card-body text-center">
+                        <ul class="no-deco">
+                            @foreach (var evenement in jeu.Evenements){
+                                // Affichage du lien pour chaque evenement d'un tournoi'
+                                @Html.ActionLink(@evenement.Nom,"Details","Evenements", new {id=@evenement.Id})
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @Html.ActionLink("CLICK","Details","Jeux", new {id=1})
+</div>

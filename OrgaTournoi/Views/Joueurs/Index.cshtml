@@ -1,0 +1,31 @@
+﻿@model IEnumerable<OrgaTournoi.Models.Joueur>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<p>
+    @using (Html.BeginForm())
+    {
+    <p>
+        Pays: @Html.DropDownList("searchFlag", "All")
+        <input type="submit" value="Filter" />
+    </p>
+    }
+</p>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-2 rounded-sm btn-light border m-2">
+            <span>
+                <a asp-action="Details" asp-route-id="@item.Id" class="text-decoration-none font-weight-bolder ">
+                    @Html.DisplayFor(modelItem => item.Pseudo)
+                </a>
+            </span>
+            <span>
+                <img src=@Html.DisplayFor(modelItem => item.Pays.Image) alt=@Html.DisplayFor(modelItem => item.Pays.Nom) style=" max-width: 20px" />
+            </span>
+        </div>
+    }
+</div>
+
+

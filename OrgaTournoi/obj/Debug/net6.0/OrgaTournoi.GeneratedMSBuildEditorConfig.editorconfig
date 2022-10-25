@@ -1,0 +1,248 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OrgaTournoi
+build_property.RootNamespace = OrgaTournoi
+build_property.ProjectDir = C:\Users\Sebastien\source\repos\orga\OrgaTournoi\OrgaTournoi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sebastien\source\repos\orga\OrgaTournoi\OrgaTournoi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/ClassementEquipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudEVxdWlwZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/ClassementEquipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudEVxdWlwZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/ClassementEquipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudEVxdWlwZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/ClassementEquipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudEVxdWlwZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/ClassementEquipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudEVxdWlwZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Classements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Classements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Classements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Classements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Classements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Equipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Equipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Equipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Equipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Equipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Evenements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Evenements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Evenements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Evenements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Evenements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmVtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Fabricants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFicmljYW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Fabricants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFicmljYW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Fabricants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFicmljYW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Fabricants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFicmljYW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Fabricants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFicmljYW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Jeux/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmV1eFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Jeux/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmV1eFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Jeux/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmV1eFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Jeux/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmV1eFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Jeux/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmV1eFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Joueurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ZXVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Joueurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ZXVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Joueurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ZXVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Joueurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ZXVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Joueurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ZXVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Matchs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Matchs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Matchs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Matchs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Matchs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Pays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Pays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Pays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Pays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Pays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Personnages/Liste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmFnZXNcTGlzdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastien/source/repos/orga/OrgaTournoi/OrgaTournoi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pusao5osjq
