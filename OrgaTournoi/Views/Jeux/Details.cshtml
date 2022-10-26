@@ -14,7 +14,7 @@
             <img src="@Model.Jeu.Image" alt="ImageJeu" style="width: 300; height:300;" />
         </div>
         <div class="gauche-bas">
-            <p class="text-start">Model.Jeu.Description</p>
+            <p class="text-start">@Model.Jeu.Description</p>
             @if (Model.Jeu.Personnages.Count > 0)
             {
                 @Html.ActionLink("Liste des personnages","Liste", "Personnages", new {id=@Model.Jeu.Id})
