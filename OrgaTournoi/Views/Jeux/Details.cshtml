@@ -12,12 +12,13 @@
             <h2>@Model.Jeu.Nom</h2>
             <h5>@Model.Jeu.DateSortie.ToString("dd/MM/yyyy")</h5>
             <img src="@Model.Jeu.Image" alt="ImageJeu" style="width: 300; height:300;" />
-            @if (Model.Jeu.Personnages.Count > 0) {
-                @Html.ActionLink("Liste des personnages","Liste", "Personnages", new {id=@Model.Jeu.Id})
-            }
-
         </div>
         <div class="gauche-bas">
+            <p class="text-start">Model.Jeu.Description</p>
+            @if (Model.Jeu.Personnages.Count > 0)
+            {
+                @Html.ActionLink("Liste des personnages","Liste", "Personnages", new {id=@Model.Jeu.Id})
+            }
         </div>
     </div>
 

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using OrgaTournoi.Models;
 
+
 namespace OrgaTournoi.Data
 {
     public class OrgaTournoiContext : DbContext

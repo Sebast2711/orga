@@ -390,13 +390,13 @@ namespace OrgaTournoi.Migrations
                     b.HasOne("OrgaTournoi.Models.Equipe", null)
                         .WithMany()
                         .HasForeignKey("EquipesId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("OrgaTournoi.Models.Match", null)
                         .WithMany()
                         .HasForeignKey("MatchsId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
@@ -454,7 +454,7 @@ namespace OrgaTournoi.Migrations
                     b.HasOne("OrgaTournoi.Models.Pays", "Pays")
                         .WithMany("Equipes")
                         .HasForeignKey("PaysId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Pays");
@@ -490,7 +490,7 @@ namespace OrgaTournoi.Migrations
                     b.HasOne("OrgaTournoi.Models.Pays", "Pays")
                         .WithMany("Evenements")
                         .HasForeignKey("PaysId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("OrgaTournoi.Models.Classement", "classement")
@@ -511,7 +511,7 @@ namespace OrgaTournoi.Migrations
                     b.HasOne("OrgaTournoi.Models.Pays", "Pays")
                         .WithMany("Joueurs")
                         .HasForeignKey("PaysId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Pays");

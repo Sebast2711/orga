@@ -2,65 +2,20 @@
 
 @{
     ViewData["Title"] = "Details";
+    ViewData["lien"] = "/css/liste.css";
 }
 
-<h1>Details</h1>
+<div class="container-fluid gauche-droite">
+    <div class="gauche text-center">
+        <h2>@Model.Nom</h2>
+        <h5>@Model.jeu.Nom</h5>
+        <p>$@Model.Cashprize</p>
+        <img src="@Model.Image" style="margin: 30px 0px;" />
+        <p>@Model.DateDebut.ToString("dd/MM/yyyy") - @Model.DateFin.ToString("dd/MM/yyyy")</p>
+        <p>@Model.Lieu - @Model.Pays.Nom <img src="@Model.Pays.Image" style=" max-width: 20px" /></p>
+    </div>
 
-<div>
-    <h4>Evenement</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.jeu)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.jeu.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nom)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nom)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Lieu)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Lieu)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Pays)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Pays.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateDebut)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateDebut)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateFin)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateFin)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cashprize)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cashprize)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div class="droite">
+
+    </div>
 </div>
