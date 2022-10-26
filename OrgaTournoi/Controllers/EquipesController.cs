@@ -66,6 +66,10 @@ namespace OrgaTournoi.Controllers
                 }      
             }
 
+          
+
+
+
             return View(await players.ToListAsync());
         }/*
         public async Task<IActionResult> Index()

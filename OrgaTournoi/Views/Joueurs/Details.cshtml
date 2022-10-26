@@ -6,11 +6,12 @@
 }
 
 <div class="container-fluid gauche-droite">
-    <div class="gauche">
-        <h2>@Model.Nom ' @Model.Pseudo ' @Model.Prenom</h2>
+    <div class="gauche text-center">
+        <h2>@Model.Nom ' @Model.Pseudo ' @Model.Prenom <img src="@Model.Pays.Image" style="max-width:20px;"/></h2>
         <p>@Model.Age Ans</p>
-        <img src="https://via.placeholder.com/150x250.png" style="width:150px; height:250px;" />
-        <p>@Model.Description</p>
+        <img src="https://via.placeholder.com/150x250.png" style="width:150px; height:250px; text-align:center; margin:auto;" />
+        <p>Cashprize Total : $ @Model.CashprizeTotal</p>
+        <p class="text-start">@Model.Description</p>
     </div>
 
     <div class="droite">
